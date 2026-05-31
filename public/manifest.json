@@ -1,0 +1,15 @@
+{
+  "short_name": "CollegePortal",
+  "name": "College Student Registration System",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#b22222",
+  "background_color": "#ffffff"
+}

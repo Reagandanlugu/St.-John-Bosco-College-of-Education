@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-college-red: #E31E24;
+  --color-college-dark: #1A1A1A;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50;
+    background-image: 
+      radial-gradient(circle at 2px 2px, rgba(227, 30, 36, 0.05) 1px, transparent 0);
+    background-size: 32px 32px;
+  }
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+}
+
+.college-gradient {
+  background: linear-gradient(135deg, #E31E24 0%, #9B1418 100%);
+}
